@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Aadharsh Raja">
+  <meta name="description" content="Vivanta LLC - Premium Technology Product Retailer">
+  <title>Vivanta LLC | Technology Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    .content {
+      padding: 20px;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .product {
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 600px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .product h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Vivanta LLC</h1>
+    <p>Your Trusted Source for Cutting-Edge Technology</p>
+  </header>
+  
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="content" id="home">
+    <h2>Welcome to Vivanta LLC</h2>
+    <p>Founded with the mission of bringing top-tier tech products to customers worldwide, Vivanta LLC is committed to excellence and innovation.</p>
+  </div>
+
+  <div class="content" id="products">
+    <h2>Our Products</h2>
+    <div class="product">
+      <h3>SmartWatch X100</h3>
+      <p>A feature-rich smartwatch with long battery life, fitness tracking, and real-time notifications.</p>
+    </div>
+    <div class="product">
+      <h3>Noise-Cancelling Headphones Pro</h3>
+      <p>Experience superior sound quality and comfort with our flagship noise-cancelling headphones.</p>
+    </div>
+    <div class="product">
+      <h3>Vivanta Smart Home Hub</h3>
+      <p>Control your smart devices seamlessly with our intuitive and secure home automation hub.</p>
+    </div>
+  </div>
+
+  <div class="content" id="about">
+    <h2>About Vivanta LLC</h2>
+    <p>Vivanta LLC is a technology product selling company founded by enthusiasts who believe in empowering everyday users with smart and reliable tech solutions. We source high-quality devices from top manufacturers and provide exceptional customer support.</p>
+  </div>
+
+  <div class="content" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@vivantatech.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p>Location: Dallas, TX</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Vivanta LLC | Created by Aadharsh Raja | Website Created: Jan 14, 2024</p>
+  </footer>
+</body>
+</html>
